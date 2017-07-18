@@ -1,0 +1,198 @@
+@import url(https://fonts.googleapis.com/css?family=Play:400,700);
+@import url(https://fonts.googleapis.com/css?family=Fauna+One);
+/*
+    #my-text{
+
+    }
+    .hidden-text{
+      visibility: hidden;
+    }
+*/
+
+/*SECTION SIZES*/
+/*HEADER: 17*/
+/*CONTENT: 57*/
+/*TOP FOOTER DIVIDER: 2.2*/
+/*BOTTOM FOOTER DIVIDER: .8*/
+/*FOOTER: 23*/
+
+.bordered{
+  border-style: solid;
+  border-width: .01px;
+  border-color: #aaa;
+}
+
+
+
+/*FONT CLASSES*/
+.play{
+  font-family: 'Play', sans-serif;
+}
+.fauna{
+  font-family: 'Fauna One', serif;
+}
+
+
+/*HEADER*/
+#header{
+  height: 17vh;
+  /*padding-left: 3em;*/
+  display: flex;
+  justify-content: space-around;
+}
+/*LEFT HEADER*/
+#left-header{
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#left-subheading{
+}
+#heading-logo{
+   width:3.2em; /*width of your image*/
+   height:3.2em; /*height of your image*/
+   margin:0; /* If you want no margin */
+   margin-bottom: -.6em;
+   padding:0; /*if your want to padding */
+}
+/*RIGHT HEADER*/
+#right-header{
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#right-subheading{
+  font-size: 2.2em;
+  float: right;
+  text-shadow: 3px 3px 7px rgba(150, 150, 150, .77);
+  /*margin-top: 60%;*/
+}
+/*LINKS*/
+.link-current{
+  margin-left: 1em;
+  /*border-bottom-width: 1px;*/
+  font-size: 2.2em;
+  text-shadow: 3px 3px 7px rgba(150, 150, 150, .77);
+}
+.link{
+  color: #777;
+  margin-left: 1em;
+  font-size: 2.2em;
+  text-shadow: 3px 3px 7px rgba(150, 150, 150, .77);
+}
+.link-current:hover{
+  border-bottom-style: solid;
+  color: #555;
+  text-shadow: 5px 5px 9px rgba(150, 150, 150, .88);
+}
+.link:hover{
+  color: #555;
+  border-bottom-style: solid;
+  text-shadow: 5px 5px 9px rgba(150, 150, 150, .88);
+}
+
+
+
+
+
+/*CONTENT*/
+#content-container{
+  display: flex;
+  height: 57vh;
+}
+#left-content-border{
+  background-color: #fff;
+  flex-grow: 1;
+}
+#right-content-border{
+  background-color: #fff;
+  flex-grow: 1;
+}
+#content{
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 7;
+  -webkit-box-shadow: 8px 8px 16px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 8px 8px 16px -4px rgba(0,0,0,0.75);
+box-shadow: 8px 8px 16px -4px rgba(0,0,0,0.75);
+}
+#content-top{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+#content-bottom{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+
+
+
+
+/*FOOTER*/
+#footer-divider-top{
+  height: 2.2vh;
+  background-color: #777;
+}
+#footer-divider-bottom{
+  height: .8vh;
+  background-color: #444;
+  -webkit-box-shadow: 2px 4px 15px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 4px 15px 1px rgba(0,0,0,0.75);
+  box-shadow: 2px 4px 15px 1px rgba(0,0,0,0.75);
+}
+#footer{
+  height: 23vh;
+  display: flex;
+  justify-content: space-around;
+}
+#left-footer{
+  width:47%;
+}
+#social-subheading{
+  font-size: 1.6em;
+  text-shadow: 3px 3px 7px rgba(150, 150, 150, .77);
+}
+
+/*SOCIAL*/
+.social-item{
+  display: flex;
+}
+.social-icon{
+  width: 1.4em;
+}
+.social-text-area{
+  padding-top: 3px;
+  padding-left: .6em;
+  padding-bottom: 0px;
+}
+.social-link-text{
+  text-shadow: 3px 3px 7px rgba(150, 150, 150, .77);
+  font-size: .7em;
+}
+
+
+
+#right-footer{
+  width:47%;
+}
+#contact-subheading{
+  font-size: 1.6em;
+  float: right;
+  text-shadow: 3px 3px 7px rgba(150, 150, 150, .77);
+}
+.contact-item{
+  float: right;
+  display: flex;
+  margin-top: -5px;
+}
+.contact-link-text{
+  text-shadow: 3px 3px 7px rgba(150, 150, 150, .77);
+  margin-left: 1em;
+  font-size: .7em;
+}
